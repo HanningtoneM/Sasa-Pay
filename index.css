@@ -1,4 +1,51 @@
+
+/* global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
 body {
     background-color: #003860;
 }
 
+main {
+    margin : auto 20%;
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+  width: 150px;
+}
