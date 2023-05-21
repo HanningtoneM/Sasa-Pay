@@ -30,19 +30,22 @@ main {
 
 nav {
     height: 80px;
+    background-color: red;
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     padding: 0 50px;
 }
 
 ul {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+}
+
+li {
+    margin: 0 10px;
+    
 }
 
 
