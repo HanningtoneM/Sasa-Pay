@@ -28,10 +28,6 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-main {
-    /* margin : auto 20%; */
-}
-
 nav {
     background-color: #003860;
     height: 5rem;
@@ -146,11 +142,54 @@ h1 {
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2rem;
+    grid-column-gap : 2rem;
+    grid-row-gap : 4rem;
     margin: auto 20%;
-    margin-top: 2rem;
+    margin-top: 6rem;
+    margin-bottom: 10rem;
 }
 
 .minimize {
     width: 30%;
+}
+
+.person h2 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: #003860;
+    font-weight: 700;
+}
+
+.person p {
+    margin-top: 1rem;
+    width: 35ch;
+    opacity: 0.7;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.sectionThree {
+    background-color: rgba(155, 184, 235, 0.2);
+    border: 1px solid #9BB8EB;
+}
+
+.download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto 20%;
+}
+
+.downloadImg {
+    width: 30%;
+    margin-top: 2rem;
+    margin-right: 5rem;
+}
+
+.Downloadtext h2 {
+    font-size: 3rem;
+    line-height: 1;
+    color: #003860;
+    font-weight: 500;
+    margin-bottom: 1rem;
 }
